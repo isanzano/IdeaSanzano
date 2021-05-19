@@ -1,0 +1,332 @@
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.tituloIndex, .tituloNosotros {
+  color: #f5aea6;
+}
+
+.h2Index, .h2Contacto {
+  color: slategrey;
+}
+
+.h3Otros {
+  color: slategrey;
+}
+
+.pFooter {
+  color: black;
+}
+
+.tdPrecio {
+  color: #a5210a;
+}
+
+td {
+  color: #0c4074;
+}
+
+th {
+  color: #02223b;
+}
+
+.ul {
+  color: black;
+}
+
+.tituloIndex, .tituloNosotros {
+  font-size: 30px;
+}
+
+.h2Index, .h2Contacto {
+  font-size: 20px;
+}
+
+.pFooter {
+  font-size: 15px;
+}
+
+th {
+  font-size: 25px;
+}
+
+td {
+  font-size: 20px;
+}
+
+.ul {
+  font-size: 15px;
+}
+
+.h3Otros {
+  font-size: 20px;
+}
+
+.logoFooter {
+  padding-left: 20px;
+}
+
+.imgIndex {
+  padding-left: 30px;
+}
+
+.imgNosotros {
+  padding-left: 30px;
+}
+
+.imgClinica {
+  padding-left: 30px;
+  margin: 20px 0px;
+}
+
+.imgOtros {
+  padding-left: 20px;
+  margin: 20px 0px;
+}
+
+.imgContacto {
+  padding-left: 20px;
+  margin: 20px 0px;
+}
+
+.h2Index, .h2Contacto {
+  margin: 20px;
+  padding: 15px;
+}
+
+.h3Otros {
+  margin: 20px;
+  padding: 15px;
+}
+
+.ul {
+  padding: 15px;
+  margin: 20px;
+}
+
+.bgFooter {
+  margin-top: 40px;
+  padding: 30px 10px 10px 10px;
+}
+
+.sectionIndex {
+  margin-top: 20px;
+}
+
+.tabla {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  margin: 20px;
+  padding: 15px;
+}
+
+.padding-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.padding-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.padding-3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tituloIndex, .tituloNosotros {
+  border: 15px;
+  border-color: #02201d;
+  border-style: solid;
+}
+
+.h2Index, .h2Contacto {
+  border: dotted;
+  border-color: #ecac34;
+}
+
+.h3Otros {
+  border: dotted;
+  border-color: #ecac34;
+}
+
+.ul {
+  border-style: dashed;
+  border-color: #32c7ae;
+}
+
+.tituloIndex, .tituloNosotros {
+  background-color: #166a80;
+  background-position: center;
+}
+
+.h2Index, .h2Contacto {
+  background-color: wheat;
+}
+
+.h3Otros {
+  background-color: wheat;
+}
+
+.bgFooter {
+  background-color: #f37b53;
+}
+
+.sectionIndex {
+  background-image: url(https://i.pinimg.com/originals/f8/20/21/f82021fe82d2cad99a2d27ba04b42a7e.png);
+}
+
+.tabla {
+  background-color: white;
+}
+
+.icono {
+  background-color: #f37b53;
+}
+
+.ul {
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../assets/font/RobotoSlab-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../assets/font/Oswald-VariableFont_wght.ttf);
+}
+
+.logoFooter {
+  width: 70%;
+}
+
+.icono {
+  width: 25px;
+}
+
+.imgIndex {
+  width: 85%;
+}
+
+.imgNosotros {
+  width: 50%;
+}
+
+.imgClinica {
+  width: 400px;
+  height: 250px;
+}
+
+.imgOtros {
+  width: 400px;
+  height: 250px;
+}
+
+.imgContacto {
+  width: 400px;
+  height: 300px;
+}
+
+.pFooter {
+  font-family: 'Roboto';
+  text-align: justify;
+}
+
+/* .container-fluid{
+    padding-left: 0px;padding-right: 0px;
+} */
+.tituloIndex, .tituloNosotros {
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+.tituloNosotros {
+  font-weight: bolder;
+}
+
+th {
+  font-weight: bolder;
+  font-style: normal;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+td {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+}
+
+.tdPrecio {
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.ul {
+  text-align: left;
+  font-family: 'Roboto';
+  width: 200px;
+}
+
+.h3Otros {
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+.h2Contacto {
+  width: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  #body {
+    height: 100vh;
+    margin: 0;
+  }
+  .imgIndex {
+    padding-left: 40px;
+  }
+  .imgNosotros {
+    padding-left: 100px;
+    width: 75%;
+  }
+  .imgClinica {
+    padding-left: 40px;
+  }
+  .imgContacto {
+    width: 400px;
+  }
+  .modificacionMobile {
+    padding: 20px;
+  }
+  .logoFooter {
+    width: 80%;
+    padding-left: 115px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1239px) {
+  #body {
+    height: 100vh;
+    margin: 0;
+  }
+  .modificacionMobile {
+    padding: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,132 @@
+@import "colores";
+@import "sizes";
+@import "position";
+@import "bordes";
+@import "background";
+// fuentes
+@font-face{
+    font-family:'Roboto';
+    src: url(../assets/font/RobotoSlab-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:'Oswald';
+    src: url(../assets/font/Oswald-VariableFont_wght.ttf);
+}
+// fuentes
+.logoFooter{
+    width: 70%;
+}
+.icono{
+    width: 25px;
+}
+.imgIndex{
+    width: 85%;
+}
+.imgNosotros{
+    width: 50%;
+}
+.imgClinica{
+    width: 400px;
+    height: 250px;
+}
+.imgOtros{
+    width: 400px;
+    height: 250px;
+}
+.imgContacto{
+    width: 400px;
+    height: 300px;
+}
+.pFooter{
+    font-family:'Roboto';
+    text-align: justify;
+}
+/* .container-fluid{
+    padding-left: 0px;padding-right: 0px;
+} */
+
+.tituloIndex{
+    font-weight: bold;
+    text-align: center;
+    font-family:'Oswald';
+}
+.tituloNosotros{
+    @extend .tituloIndex;
+    font-weight: bolder;
+}
+
+// tablas
+th{
+    font-weight: bolder;
+    font-style: normal;
+    font-family:'Roboto';
+    text-align:center;
+}
+td{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+.tdPrecio{
+    font-weight: bold;
+    font-family:'Roboto';
+}
+.ul{
+    text-align: left;
+    font-family:'Roboto';
+    width: 200px;
+}
+.h3Otros{
+    text-align: center;
+    font-family:'Oswald';
+}
+.h2Contacto{
+    @extend .h2Index;
+    width: 250px;
+}
+
+@media only screen and (max-width: 768px)
+ {
+	#body {
+		height: 100vh;
+		margin: 0;
+    }
+    .imgIndex{
+        padding-left: 40px;
+    }
+    .imgNosotros{
+        padding-left: 100px;
+        width: 75%;
+    }
+    .imgClinica{
+        padding-left:40px;
+    }
+    .imgContacto{
+        width: 400px;
+    }
+    .modificacionMobile{
+        padding: 20px;
+    }
+    .logoFooter{
+        width: 80%;
+        padding-left: 115px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1239px)
+{
+		#body {
+		height: 100vh;
+		margin: 0;
+	    }
+        .modificacionMobile{
+            padding: 20px;
+        }
+}
+
+
+
+
+

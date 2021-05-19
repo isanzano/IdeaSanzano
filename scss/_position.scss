@@ -1,0 +1,54 @@
+.logoFooter{
+    padding-left: 20px;
+}
+.imgIndex{
+    padding-left: 30px;
+}
+.imgNosotros{
+    padding-left: 30px;
+}
+.imgClinica{
+    padding-left: 30px;
+    margin: 20px 0px;
+}
+.imgOtros{
+    padding-left: 20px;
+    margin: 20px 0px;
+}
+.imgContacto{
+    padding-left: 20px;
+    margin: 20px 0px;
+}
+.h2Index{
+    margin: 20px;
+    padding: 15px;
+}
+.h3Otros{
+    margin: 20px;
+    padding: 15px;
+}
+.ul{
+    padding: 15px;
+    margin: 20px;
+}
+.bgFooter{
+    margin-top: 40px;
+    padding: 30px 10px 10px 10px;
+}
+.sectionIndex{
+    margin-top: 20px;
+}
+.tabla{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.formulario{
+    margin: 20px;
+    padding: 15px;
+}
+@for $padding from 1 through 3{
+    .padding-#{$padding}{
+        padding-top: 10px* $padding;
+        padding-bottom: 10px* $padding;
+    }
+}

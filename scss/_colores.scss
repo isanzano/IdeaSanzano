@@ -1,0 +1,36 @@
+$negro:black;
+$blanco:white;
+$amarillo:yellow;
+$gris:slategrey;
+$coral:rgb(245, 174, 166);
+
+@each $color in green,red,blue{
+    .#{$color}{
+        color: $color;
+    }
+}
+
+.tituloIndex{
+    color: $coral;
+}
+.h2Index{
+    color:$gris;
+}
+.h3Otros{
+    color:$gris;
+}
+.pFooter{
+    color:$negro;
+}
+.tdPrecio{
+    color: rgb(165, 33, 10);
+}
+td{
+    color: rgb(12, 64, 116);
+}
+th{
+    color: #02223b;
+}
+.ul{
+    color:$negro;
+}
